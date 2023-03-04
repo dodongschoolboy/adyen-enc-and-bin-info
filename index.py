@@ -99,5 +99,5 @@ async def adyen(item: Item):
         'card': cc,
         'month': mes,
         'year': ano,
-        'cvv': cvv,
+        'cvv': cvv
     }
