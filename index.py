@@ -79,9 +79,7 @@ async def bin(bin1):
 
 @app.get("/")
 async def start():
-        return {
-        'Made by': sir roldex,
-    }
+    return RedirectResponse("http://www.github.com/r0ld3x/adyen-enc-and-bin-info")
 
 
 class Item(BaseModel):
