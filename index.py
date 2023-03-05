@@ -79,7 +79,9 @@ async def bin(bin1):
 
 @app.get("/")
 async def start():
-    print(json.dumps({"name": "John", "age": 30}))
+        return {
+        'Made by': sir roldex,
+    }
 
 
 class Item(BaseModel):
