@@ -79,7 +79,7 @@ async def bin(bin1):
 
 @app.get("/")
 async def start():
-    return RedirectResponse("http://www.github.com/r0ld3x/adyen-enc-and-bin-info")
+    print(json.dumps({"name": "John", "age": 30}))
 
 
 class Item(BaseModel):
